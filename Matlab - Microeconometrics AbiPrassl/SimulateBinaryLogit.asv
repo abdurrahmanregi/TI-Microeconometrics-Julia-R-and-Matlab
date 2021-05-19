@@ -1,0 +1,18 @@
+function [y, utility] = SimulateBinaryLogit(x,Beta)
+% -------------------------------------------------------
+% PURPOSE: generate binary outcomes according to the
+% logit specification
+% -------------------------------------------------------
+% INPUTS: x: NxJ vector of independent variable
+%         beta: Jx1 parameter vector
+% -------------------------------------------------------
+% OUTPUT: y: Nx1 binary choice vector
+% -------------------------------------------------------
+
+N       = size(x,1);
+J       = length(Beta);
+
+---- (1) simulate values for epsilon &, based on this
+        utility
+
+return
